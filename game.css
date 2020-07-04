@@ -1,0 +1,62 @@
+.start{
+    color: white;
+    background-image: url(/pictures/hallway.jpg);
+}
+
+h1{
+    color: white;
+    font-family: papyrus;
+    font-size: 80px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+
+}
+
+a{
+    color: white;
+}
+
+.startbutton{
+    position: absolute;
+
+    top: 310px;
+}
+
+.image{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+    background-color: clear;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.button {
+    font-family: papyrus;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 9px gray;
+  }
+  
+  .button:hover {background-color: clear}
+  
+  .button:active {
+    background-color: black;
+    box-shadow: 0 5px gray;
+    transform: translateY(2px);
+  }
+  /* button infomation was founded here: 
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */

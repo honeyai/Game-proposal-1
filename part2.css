@@ -1,0 +1,51 @@
+*, *::before, *::after
+  {
+      box-sizing: border-box;
+      font-family: papyrus;
+  }
+
+  body{
+      padding:0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      
+  }
+
+  .container{
+      width: 400px;
+      padding: 0px;
+      border-radius: 10px;
+      box-shadow:  0 0 10px 2px;
+      position: absolute;
+      bottom: 100px;
+      right: 500px;
+      left: 500px;
+  }
+
+  .btn-grid{
+      display:grid;
+      grid-template-columns: repeat(2,auto);
+      gap: 10px;
+      margin-top: 20px;
+  }
+
+  h1{
+    color: white;
+    font-family: papyrus;
+    font-size: 80px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.text{
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+    background-color: clear;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}

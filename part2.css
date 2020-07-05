@@ -33,7 +33,7 @@
       margin-top: 20px;
   }
 
-  h1{
+  h1 , h5{
     color: white;
     font-family: papyrus;
     font-size: 80px;
@@ -49,3 +49,5 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+ /* button infomation was founded here: 
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */

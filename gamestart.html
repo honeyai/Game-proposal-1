@@ -16,10 +16,23 @@
         <div class="container">
 
                 <div id = "option-buttons" class="btn-grid">
-                    <button class="btn">Option 1</button>
-                    <button class="btn">Option 2</button>
-                    <button class="btn">Option 3</button>
-                    <button class="btn">Option 4</button>
+
+                    <p style="color:white;font-size:18px;">Player 1 choices: </p>
+                    <br>
+                    <button class="btn" onclick="choose('PB&J')" id="result">Option 1</button>
+                    <button class="btn" onclick="choose('Cereal')" id ="result">Option 2</button>
+                    <br>
+                    <br>
+                    <button onClick="test()" id="off">Submit</button>
+                    <div id="game">
+                        <p style="color:white;font-size:18px;">Player 2 choices: </p>
+                        <br>
+                        <button class="btn" onclick="choose2('PB&J')" id="result1">Option 1</button>
+                        <button class="btn" onclick="choose2('Cereal')" id ="result1">Option 2</button>
+                        <br>
+                        <br>
+                        <button onClick="test1()" id="off1">Submit</button>
+                    </div>
                 </div>
             </div>
 

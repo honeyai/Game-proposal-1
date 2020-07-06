@@ -11,49 +11,49 @@ let rowshambow = (choice1,choice2) => {
     
     if(choice1 === "rock" && choice2 === "paper"){
         alert(" player 2 wins ")
-        if(user2 === 'advance forward'){
+        if(user2 === 'run down the hall'){
         pageRedirect()
-        }else if(user2 === 'Stay Inside'){
+        }else if(user2 === 'knock on doors'){
             pageRedirect1()
         }
     
     }else if (choice1 === "paper" && choice2 === "rock"){
         alert(" player 1 wins")
-        if(user === 'advance forward'){
+        if(user === 'run down the hall'){
             pageRedirect()
-            }else if(user === 'Stay Inside'){
+            }else if(user === 'knock on doors'){
                 pageRedirect1()
             }
     }
     
     if(choice1 === "scissors" && choice2 === "rock"){
         alert(" player 2 wins ")
-        if(user2 === 'advance forward'){
+        if(user2 === 'run down the hall'){
             pageRedirect()
-            }else if(user2 === 'Stay Inside'){
+            }else if(user2 === 'knock on doors'){
                 pageRedirect1()
             }
     }else if (choice1 === "rock " && choice2 ==="scissors"){
         alert(" player 1 wins ")
-        if(user === 'advance forward'){
+        if(user === 'run down the hall'){
             pageRedirect()
-            }else if(user === 'Stay Inside'){
+            }else if(user === 'knock on doors'){
                 pageRedirect1()
             }
     }
     
     if(choice1 === "scissors" && choice2 === "paper"){
         alert(" player 1 wins ")
-        if(user === 'advance forward'){
+        if(user === 'run down the hall'){
             pageRedirect()
-            }else if(user === 'Stay Inside'){
+            }else if(user === 'knock on doors'){
                 pageRedirect1()
             }
     }else if (choice1 === "paper" && choice2 === "scissors"){
         alert(" player 2 wins ")
-        if(user2 === 'advance forward'){
+        if(user2 === 'run down the hall'){
             pageRedirect()
-            }else if(user2 === 'Stay Inside'){
+            }else if(user2 === 'knock on doors'){
                 pageRedirect1()
             }
     }
@@ -61,10 +61,10 @@ let rowshambow = (choice1,choice2) => {
     }
     
     function test2(){
-        if( user === user2 && user === 'advance forward')
+        if( user === user2 && user === 'run down the hall')
         {
             pageRedirect()
-        }else if(user === user2 && user === 'Stay Inside')
+        }else if(user === user2 && user === 'knock on doors')
         {
             pageRedirect1()
         }else if(user !== user2) 

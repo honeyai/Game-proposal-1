@@ -11,31 +11,64 @@ if (choice1 === choice2 ){
 
 if(choice1 === "rock" && choice2 === "paper"){
     alert(" player 2 wins ")
+    if(user2 === 'Peek Out Room Door'){
     pageRedirect()
+    }else if(user2 === 'Stay Inside'){
+        pageRedirect1()
+    }
 
 }else if (choice1 === "paper" && choice2 === "rock"){
     alert(" player 1 wins")
+    if(user === 'Peek Out Room Door'){
+        pageRedirect()
+        }else if(user === 'Stay Inside'){
+            pageRedirect1()
+        }
 }
 
 if(choice1 === "scissors" && choice2 === "rock"){
     alert(" player 2 wins ")
+    if(user2 === 'Peek Out Room Door'){
+        pageRedirect()
+        }else if(user2 === 'Stay Inside'){
+            pageRedirect1()
+        }
 }else if (choice1 === "rock " && choice2 ==="scissors"){
     alert(" player 1 wins ")
+    if(user === 'Peek Out Room Door'){
+        pageRedirect()
+        }else if(user === 'Stay Inside'){
+            pageRedirect1()
+        }
 }
 
 if(choice1 === "scissors" && choice2 === "paper"){
     alert(" player 1 wins ")
+    if(user === 'Peek Out Room Door'){
+        pageRedirect()
+        }else if(user === 'Stay Inside'){
+            pageRedirect1()
+        }
 }else if (choice1 === "paper" && choice2 === "scissors"){
     alert(" player 2 wins ")
+    if(user2 === 'Peek Out Room Door'){
+        pageRedirect()
+        }else if(user2 === 'Stay Inside'){
+            pageRedirect1()
+        }
 }
 
 }
 
 function test2(){
-    if( user === user2){
-        alert(" I picked up the " + user + " and ate it")
-    }else if(user !== user2) {
-    
+    if( user === user2 && user === 'Peek Out Room Door')
+    {
+        pageRedirect()
+    }else if(user === user2 && user === 'Stay Inside')
+    {
+        pageRedirect1()
+    }else if(user !== user2) 
+    {
     let p1 = prompt(" pick player 1: rock, paper or scissors ");
     let p2 = prompt(" pick player 2: rock, paper or scissors ");
     

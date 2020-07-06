@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="part2.css">
     <script defer src="app.js"></script>
     <title>Document</title>
-    
 </head>
 <body style="background-color:black">
-
+    
     <div class ="image">
-        <center><img src="/pictures/camila-quintero-franco-mC852jACK1g-unsplash.jpg" height="700"></center>
+        <br>
+        <br>
+        <h2 style="color:white;font-size:18px;">you have awaken from a deep slumber. You hear this loud, repetitive "BANG" coming from outside the roomdoor. what do you do ? </h2>
+        <center><img src="/pictures/door.jpeg" height="700"></center>
+        
         <div id="text">
         <div class="container">
-
+            
                 <div id = "option-buttons" class="btn-grid">
-
+                    
+                    
                     <p style="color:white;font-size:18px;">Player 1 choices: </p>
                     <br>
                     <button class="btn" onclick="choose('Stay Inside')" id="result">Stay Inside</button>
@@ -24,15 +28,17 @@
                     <br>
                     <br>
                     <button onClick="test()" id="off">Submit</button>
-                    <div id="game">
-                        <p style="color:white;font-size:18px;">Player 2 choices: </p>
-                        <br>
-                        <button class="btn" onclick="choose2('Stay Inside')" id="result1">Stay Inside</button>
-                        <button class="btn" onclick="choose2('Peek Out Room Door')" id ="result1">Peek Out Room Door</button>
-                        <br>
-                        <br>
-                        <button onClick="test1()" id="off1">Submit</button>
-                    </div>
+                </div>
+                <div id = "option-buttons" class = "btn-grid">
+
+                    <p style="color:white;font-size:18px;">Player 2 choices: </p>
+                    <br>
+                    <button class="btn" onclick="choose2('Stay Inside')" id="result1">Stay Inside</button>
+                    <button class="btn" onclick="choose2('Peek Out Room Door')" id ="result1">Peek Out Room Door</button>
+                    <br>
+                    <br>
+                    <button onClick="test1()" id="off1">Submit</button>
+                    
                 </div>
             </div>
 
@@ -57,5 +63,6 @@
           window.location.href = "inside.html";
         } 
     </script>
+    
 </body>
 </html> 

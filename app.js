@@ -3,10 +3,15 @@ let rowshambow = (choice1,choice2) => {
 
 if (choice1 === choice2 ){
     alert("it is a tie! ")
+    let p1 = prompt(" pick player 1: rock, paper or scissors ");
+    let p2 = prompt(" pick player 2: rock, paper or scissors ");
+    rowshambow(p1 , p2);
+
 }
 
 if(choice1 === "rock" && choice2 === "paper"){
     alert(" player 2 wins ")
+    pageRedirect()
 
 }else if (choice1 === "paper" && choice2 === "rock"){
     alert(" player 1 wins")
@@ -66,5 +71,10 @@ function test1(){
     console.log(input2);
     document.getElementById("off1").disabled = true;
     // code i found to disable button https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_pushbutton_disabled2
-    test2()
+    if(user === null && user2 === null){
+        
+    }else{
+        test2() 
+    }
 }
+

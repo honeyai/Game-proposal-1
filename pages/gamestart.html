@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="part2.css">
-    <script defer src="peek.js"></script>
+    <link rel="stylesheet" href="../css/part2.css">
+    <script defer src="../app.js"></script>
     <title>Document</title>
 </head>
 <body style="background-color:black">
     
     <div class ="image">
         <br>
-        <h2 style="color:white;font-size:18px;">As you peek outside your room door. you notice your door leads outside. Snowing, cold and in the middle of nowhere. </h2>
-        <h2 style="color:white;font-size:18px;">in front of you.. you see two glowing eyes peering in front of you.. you are unable to leave..</h2>
-        <center><img src="/pictures/monster.jpeg" height="700"></center>
+        <br>
+        <h2 style="color:white;font-size:18px;">you have awaken from a deep slumber. You hear this loud, repetitive "BANG" coming from outside the roomdoor. what do you do ? </h2>
+        <center><img src="../assets/pictures/door.jpeg" height="700"></center>
         
         <div id="text">
         <div class="container">
             
                 <div id = "option-buttons" class="btn-grid">
                     
+                    
                     <p style="color:white;font-size:18px;">Player 1 choices: </p>
                     <br>
                     <button class="btn" onclick="choose('Stay Inside')" id="result">Stay Inside</button>
-                    <!-- <button class="btn" onclick="choose('advance forward')" id ="result">advance forward</button> -->
+                    <button class="btn" onclick="choose('Peek Out Room Door')" id ="result">Peek Out Room Door</button>
                     <br>
                     <br>
                     <button onClick="test()" id="off">Submit</button>
@@ -33,10 +34,10 @@
                     <p style="color:white;font-size:18px;">Player 2 choices: </p>
                     <br>
                     <button class="btn" onclick="choose2('Stay Inside')" id="result1">Stay Inside</button>
-                    <!-- <button class="btn" onclick="choose2('advance forward')" id ="result1">advance forward</button> -->
+                    <button class="btn" onclick="choose2('Peek Out Room Door')" id ="result1">Peek Out Room Door</button>
                     <br>
                     <br>
-                    <button onClick="test1()" id="off1">Submit</button>
+                    <button class="green" onClick="test1()" id="off1">Submit</button>
                     
                 </div>
             </div>
@@ -50,7 +51,7 @@
     </div>
     <script>
         function pageRedirect() {
-          window.location.href = "peek.html"; //change
+          window.location.href = "peek.html";
         } 
 
         function pageRedirect1() {

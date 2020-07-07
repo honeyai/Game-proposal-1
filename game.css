@@ -67,7 +67,7 @@ a{
   }
   
   
-  .button:hover {background-color: clear}
+  .button:hover {background-color: red}
   
   .button:active {
     background-color: black;

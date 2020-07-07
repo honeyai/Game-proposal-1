@@ -51,3 +51,5 @@
 }
  /* button infomation was founded here: 
   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+
+  .btn:hover{background-color: red}

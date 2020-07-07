@@ -12,8 +12,9 @@
     <div class ="image">
         <center><img src="/pictures/camila-quintero-franco-mC852jACK1g-unsplash.jpg" height="700"></center>
 <div class = "text">
-
-    <h1> Scary Game </h1>
+<br>
+<br>
+    <h1> Restless Sleep </h1>
     <button class="button"><a href= "gamestart.html">begin</a></button>
 
 </div>
@@ -21,7 +22,17 @@
     
     <div class="start">
     </div>
-    
-
+    <audio id ="myAudio" controls autoplay >
+        <source src="/spooky.ogg" type="audio/ogg">
+        <source src="/spooky.mp3" type="audio/mpeg">
+      </audio>
+<p id = "demo"></p>
 </body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myAudio").autoplay;
+      document.getElementById("demo").innerHTML = x;
+    }
+    </script>
 </html>

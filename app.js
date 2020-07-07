@@ -33,7 +33,7 @@ if(choice1 === "scissors" && choice2 === "rock"){
         }else if(user2 === 'Stay Inside'){
             pageRedirect1()
         }
-}else if (choice1 === "rock " && choice2 ==="scissors"){
+}else if (choice1 === "rock" && choice2 === "scissors"){
     alert(" player 1 wins ")
     if(user === 'Peek Out Room Door'){
         pageRedirect()

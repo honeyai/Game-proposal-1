@@ -29,8 +29,8 @@
     <div class="start">
     </div>
     <audio id ="myAudio" controls autoplay >
-        <source src="/spooky.ogg" type="audio/ogg">
-        <source src="/spooky.mp3" type="audio/mpeg">
+        <source src="/spooky sample.mp3" type="audio/ogg">
+        <source src="/spooky sample.mp3" type="audio/mpeg">
       </audio>
 <p id = "demo"></p>
 </body>
@@ -38,9 +38,12 @@
 <script>
     window.onload= function(){
         document.getElementById("myAudio").play()
+        document.getElementById("myAudio").volume = 0.4;
+        //https://www.w3schools.com/jsref/prop_audio_volume.asp for auto volume
     }
     function myFunction() {
       var x = document.getElementById("myAudio").autoplay;
+      
       document.getElementById("demo").innerHTML = x;
     }
     // script for the auto play within the browser https://www.youtube.com/watch?v=30PvYhVKNGg

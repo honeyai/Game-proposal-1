@@ -15,10 +15,16 @@
 <br>
 <br>
     <h1> Restless Sleep </h1>
-    <button class="button"><a href= "gamestart.html">begin</a></button>
+    
+    <button class="button"><a href= "gamestart.html">Begin</a></button>
+    
 
 </div>
+<div class ="text">
+    <button class="button1"><a href= "rules.html">Rules</a></button>
+</div>
 </div> 
+
     
     <div class="start">
     </div>
@@ -30,9 +36,13 @@
 </body>
 
 <script>
+    window.onload= function(){
+        document.getElementById("myAudio").play()
+    }
     function myFunction() {
       var x = document.getElementById("myAudio").autoplay;
       document.getElementById("demo").innerHTML = x;
     }
+    // script for the auto play within the browser https://www.youtube.com/watch?v=30PvYhVKNGg
     </script>
 </html>

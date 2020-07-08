@@ -1,4 +1,4 @@
-# Game-proposal
+<!-- # Game-proposal
 
 # Clicker game
 
@@ -18,7 +18,28 @@
 ## thinking of a game where you pick the path you take (butterfly effect)
 ## in this game, you will have two people playing and choosing which path you would like to change. depending on the part of the story... and what you and your friend chose will change the overall story. 
 ## this will be a text based game with images
-## if you and your friend comes to a disagreement within voting. you both will have to rock paper scissors in order for your story to win. (best of 2) and once that player wins, they will get a tag. this tag will keep track and let you remember who was the one who picked that said path. 
+## if you and your friend comes to a disagreement within voting. you both will have to rock paper scissors in order for your story to win. (best of 2) and once that player wins, they will get a tag. this tag will keep track and let you remember who was the one who picked that said path.  -->
  <!-- do func of rock, paper, scissors first. -->
+
+ # how to play
+ ## within the game, you will chose pathways. Each pathway has a consaquence. Make sure to work with the other player to make it out of this place.
+ ## if you are unable to work together the tie breaker will be a rock, paper, scissors match 
+ ## who ever is the winner, that path will be chosen
+
+ # Approach Taken
+ ## wanted to add something that was personally apart of me. sleep paralaze is scary but interesting
+ ## i wanted to kinda share the things I see or deal with when it happens.
+
+ # motivation
+ ## project of per scholas
+
+ # tech used
+ ## HTML, CSS, Javascript
+
+ # challenges
+ ## making sure things were linked correctly and also trying to get the RPS fucntion to work. 
+
+
+ 
 
  

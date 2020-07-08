@@ -25,6 +25,7 @@
  ## within the game, you will chose pathways. Each pathway has a consaquence. Make sure to work with the other player to make it out of this place.
  ## if you are unable to work together the tie breaker will be a rock, paper, scissors match 
  ## who ever is the winner, that path will be chosen
+ ## one way to win is the RPS match. the other is to pick the correct paths
 
  # Approach Taken
  ## wanted to add something that was personally apart of me. sleep paralaze is scary but interesting

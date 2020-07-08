@@ -2,7 +2,7 @@
 let rowshambow = (choice1,choice2) => {
 
     if (choice1 === choice2 ){
-        alert("it is a tie! ")
+        alert("it is a tie!")
         let p1 = prompt(" pick player 1: rock, paper or scissors ");
         let p2 = prompt(" pick player 2: rock, paper or scissors ");
         rowshambow(p1 , p2);

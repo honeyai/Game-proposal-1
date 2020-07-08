@@ -33,7 +33,7 @@ let rowshambow = (choice1,choice2) => {
             }else if(user2 === 'knock on doors'){
                 pageRedirect1()
             }
-    }else if (choice1 === "rock " && choice2 ==="scissors"){
+    }else if (choice1 === "rock" && choice2 ==="scissors"){
         alert(" player 1 wins ")
         if(user === 'run down the hall'){
             pageRedirect()
